@@ -156,6 +156,7 @@ public class Employee {
         	boolean hasSpouse = !spouseIdNumber.isEmpty();
         	return TaxFunction.calculateTax(monthlySalary, otherMonthlyIncome, monthsWorked, annualDeductible, hasSpouse, childIdNumbers.size());
    		 }
+		}
 
 
 
