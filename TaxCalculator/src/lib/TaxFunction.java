@@ -14,6 +14,12 @@ public class TaxFunction {
 	 * 
 	 */
 	
+	private static final int TAX_RATE = 5;
+    private static final int TAX_FREE_BASE = 54000000;
+    private static final int TAX_FREE_MARRIED_BONUS = 4500000;
+    private static final int TAX_FREE_CHILD_BONUS = 1500000;
+    private static final int MAX_CHILDREN_FOR_TAX_FREE = 3;
+    private static final int MONTHS_IN_YEAR = 12;
 	
 	public static int calculateTax(int monthlySalary, int otherMonthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildren) {
 		
